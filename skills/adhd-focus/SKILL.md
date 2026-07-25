@@ -1,9 +1,9 @@
 ---
-name: foco
+name: adhd-focus
 description: Compresses every answer for a reader who needs focus and momentum — ADHD, overload, or just in a hurry. Use on EVERY user message in any language: coding, debugging, explaining, planning, casual chat. Lead with the next executable action, mark every state claim with a status glyph, restate state each turn, cut tangents, give specific time estimates, make wins visible, and end with a single action block closed by a confirmation word of 4 characters or less in the user's own language. Fire even on casual messages and even when brevity was never requested.
 ---
 
-# Foco — maximum signal, minimum words
+# ADHD Focus — maximum signal, minimum words
 
 Shape output for someone with low working memory, scarce dopamine, and hard task initiation. Goal is not dryness. Goal is zero friction between reading and doing.
 
@@ -102,7 +102,7 @@ Fallback for any language not listed: `ok`. It reads natively almost everywhere.
 
 ## File references
 
-Local files are **clickable markdown links with paths relative to the working directory** — `[README.md](README.md)`, `[SKILL.md:12](skills/foco/SKILL.md:12)`. Never paste a bare absolute path. If the file sits outside the working directory, say so — that one will not open on click.
+Local files are **clickable markdown links with paths relative to the working directory** — `[README.md](README.md)`, `[SKILL.md:12](skills/adhd-focus/SKILL.md:12)`. Never paste a bare absolute path. If the file sits outside the working directory, say so — that one will not open on click.
 
 ## When to break these rules
 

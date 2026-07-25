@@ -8,7 +8,7 @@ Each skill is a folder with a `SKILL.md` file. Claude loads the skill's full ins
 
 | Skill | What it does | Language |
 |---|---|---|
-| [`foco`](skills/foco/SKILL.md) | Compresses every answer for a reader who needs focus and momentum — ADHD, overload, or just in a hurry. Leads with the next concrete action, marks state with ✅ ❌ ⚠️ glyphs, restates context between turns, cuts tangents, gives specific time estimates. | 🌍 any |
+| [`adhd-focus`](skills/adhd-focus/SKILL.md) | Compresses every answer for a reader who needs focus and momentum — ADHD, overload, or just in a hurry. Leads with the next concrete action, marks state with ✅ ❌ ⚠️ glyphs, restates context between turns, cuts tangents, gives specific time estimates. | 🌍 any |
 
 ## Install
 
@@ -16,18 +16,18 @@ Copy the skill folder into your skills directory:
 
 ```bash
 git clone https://github.com/andrealb92/andre-skills.git
-cp -r andre-skills/skills/foco ~/.claude/skills/
+cp -r andre-skills/skills/adhd-focus ~/.claude/skills/
 ```
 
 Skills in `~/.claude/skills/` are available in every project. For a single project, use `.claude/skills/` inside the repo instead.
 
 Restart Claude Code (or start a new session) and the skill is picked up automatically.
 
-## Why `foco` exists
+## Why `adhd-focus` exists
 
 Most assistant output is optimized to sound complete. That works against you when your bottleneck is starting, not understanding.
 
-`foco` enforces a different shape:
+`adhd-focus` enforces a different shape:
 
 - The first line is something you can **do**, not context you have to read through.
 - Every claim about state carries a glyph — ✅ done, ❌ broken, ⚠️ needs attention, 🔵 pending — so the status is scannable without reading the sentence.
