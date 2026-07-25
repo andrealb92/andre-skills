@@ -67,7 +67,7 @@ Shortest form that stays unambiguous.
 Whenever the user must **do** something (run a command, paste SQL, click, test, send a value back), the message **ends** with a self-contained block. Context goes above it. Nothing goes below it.
 
 ```
-──────────────────────────────
+────────────────
 **DO NOW — in order (read it all first):**
 
 1. <action 1 — one action, imperative>
@@ -75,7 +75,7 @@ Whenever the user must **do** something (run a command, paste SQL, click, test, 
 3. <action 3>
 
 **When done, reply just:** `ok`
-──────────────────────────────
+────────────────
 ```
 
 Rules:
