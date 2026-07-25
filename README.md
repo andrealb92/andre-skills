@@ -8,7 +8,7 @@ Each skill is a folder with a `SKILL.md` file. Claude loads the skill's full ins
 
 | Skill | What it does | Language |
 |---|---|---|
-| [`foco`](skills/foco/SKILL.md) | Reshapes every answer for a reader who needs focus and momentum — ADHD, overload, or just in a hurry. Leads with the next concrete action, numbers multi-step work, restates state between turns, cuts tangents, gives specific time estimates. | 🇧🇷 pt-BR |
+| [`foco`](skills/foco/SKILL.md) | Compresses every answer for a reader who needs focus and momentum — ADHD, overload, or just in a hurry. Leads with the next concrete action, marks state with ✅ ❌ ⚠️ glyphs, restates context between turns, cuts tangents, gives specific time estimates. | 🌍 any |
 
 ## Install
 
@@ -30,9 +30,11 @@ Most assistant output is optimized to sound complete. That works against you whe
 `foco` enforces a different shape:
 
 - The first line is something you can **do**, not context you have to read through.
-- Anything requiring action from you ends in a single, self-contained **FAÇA AGORA** block — nothing after it.
-- Time estimates are specific (`15 minutes`), never vague (`some work`).
-- Finished work is stated as a visible win, not buried in a summary.
+- Every claim about state carries a glyph — ✅ done, ❌ broken, ⚠️ needs attention, 🔵 pending — so the status is scannable without reading the sentence.
+- Anything requiring action from you ends in a single, self-contained **DO NOW** block — nothing after it, closed by a confirmation word of 4 characters or less.
+- Time estimates are specific (`15 min`), never vague (`some work`).
+
+**Works in any language.** The skill is written in English so the model applies it consistently, but it always answers in *your* language — the glyphs, the action block, and the confirmation word are all localized on the fly.
 
 It deliberately breaks its own brevity rules when you ask for an explanation, when a destructive action needs confirmation, or when debugging is going in circles.
 
